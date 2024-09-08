@@ -1,16 +1,4 @@
-<div>
-	<p>Comexstat Visualizer</p>
+<div class="background flex w-full flex-col gap-2 p-4 pb-0">
+	<h1>Comexstat Visualizer</h1>
+	<hr class="h-px w-full border-0 bg-gray-200 dark:bg-gray-700" />
 </div>
-
-<style>
-	div {
-		width: 100%;
-		padding: 0.5rem;
-
-		display: flex;
-		background-color: var(--card-foreground);
-		box-shadow: 0 0 0 1px var(--card-background);
-
-		@apply border-b;
-	}
-</style>

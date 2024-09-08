@@ -1,2 +1,6 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Home</h1>
+<p>Visulizador de Dados da Comexstat - Importação e Exportação Brasil</p>
+<p class="text-sm text-muted-foreground">v0.0.1</p>
+
+<style>
+</style>

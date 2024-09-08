@@ -3,19 +3,9 @@
 	import '../app.css';
 </script>
 
-<main>
+<main class="flex h-screen w-screen flex-col">
 	<Header />
-	<slot></slot>
+	<article class="p-4">
+		<slot></slot>
+	</article>
 </main>
-
-<style>
-	main {
-		display: flex;
-		flex-direction: column;
-
-		@apply min-h-screen;
-
-		background-color: var(--background);
-		color: var(--foreground);
-	}
-</style>
